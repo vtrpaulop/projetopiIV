@@ -1,0 +1,16 @@
+{
+    "name": "vtr/projetopi-iv",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "Vtr\\ProjetopiIv\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "vtrpaulop",
+            "email": "vtrpaulop@gmail.com"
+        }
+    ],
+    "require": {}
+}
