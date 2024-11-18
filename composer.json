@@ -1,4 +1,5 @@
 {
+<<<<<<< HEAD
     "name": "vtr/projetopi-iv",
     "type": "project",
     "autoload": {
@@ -12,6 +13,8 @@
             "email": "vtrpaulop@gmail.com"
         }
     ],
+=======
+>>>>>>> 3537e94 (hello world)
     "require": {
         "guzzlehttp/guzzle": "^7.9"
     }
