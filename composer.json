@@ -10,7 +10,8 @@
         {
             "name": "vtrpaulop",
             "email": "vtrpaulop@gmail.com"
-        },
+        }
+    ],
     "require": {
         "guzzlehttp/guzzle": "^7.9"
     }
