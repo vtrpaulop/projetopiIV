@@ -1,5 +1,2 @@
-<<<<<<< HEAD
-/vendor/
-=======
 /vendor
->>>>>>> 3537e94 (hello world)
+composer.lock
