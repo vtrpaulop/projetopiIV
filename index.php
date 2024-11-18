@@ -1,19 +1,4 @@
 <?php
-<<<<<<< HEAD
-require_once('vendor/autoload.php');
-
-$client = new \GuzzleHttp\Client();
-
-$response = $client->request('GET', 'https://api.themoviedb.org/3/movie/99?language=en-US', [
-  'headers' => [
-    'Authorization' => 'Bearer eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiJlOWI4YzNhOWE0NjYwZmNhYWEwMWRkYWY2ZWE5OTMxMCIsIm5iZiI6MTcyODQ0MjQ0MS40NTY3OTcsInN1YiI6IjY3MDUxZTZlOThkZjhlYTAxNTFkNGIxMSIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.X9UGhWaP2KNCU1AKEXnNTM-X8hTD5GlSabBiWaU5Czo',
-    'accept' => 'application/json',
-  ],
-]);
-
-echo $response->getBody();
-=======
-
 require_once 'vendor/autoload.php';
 
 $client = new \GuzzleHttp\Client;
@@ -46,7 +31,7 @@ $pdo->prepare($sql)->execute();
 $sqlCreateMovie = 'INSERT INTO movies (name, original_title, original_language, release_date, overview, status, popularity, vote_average, vote_count, genres, adult)
 VALUES (:name, :original_title, :original_language, :release_date, :overview, :status, :popularity, :vote_average, :vote_count, :genres, :adult)';
 
-$chave = 'eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiJlYmJjMjJlYmVkNjM5ZDRlY2EyMjVlMDFmMzE4Yjg3MiIsIm5iZiI6MTczMTg2MzI3My4zNjYwOTQ4LCJzdWIiOiI2NDM4MTMwZjFkNTM4NjAwZDU2NzhmYmYiLCJzY29wZXMiOlsiYXBpX3JlYWQiXSwidmVyc2lvbiI6MX0.YOf0DtYoGyyGY1Ha1ghU5sbkcqsRcYK_sUZZagxOoXI';
+$chave = '';
 
 for ($i = 0; $i < 3000; $i++) {
     sleep(1);
